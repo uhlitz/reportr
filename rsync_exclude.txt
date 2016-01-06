@@ -1,0 +1,9 @@
+*.Rproj.user
+*.Rhistory
+*.RData
+*.jpg
+*.png
+*.pdf
+*cache*
+data/*
+

@@ -1,0 +1,34 @@
+---
+title: 'Introduction'
+author: 'Florian Uhlitz'
+date: '`r format(Sys.time(), "%d %B, %Y")`'
+output: 
+  html_document: 
+    number_sections: no
+    toc: yes
+bibliography: ~/papers.bib
+---
+
+```{r global_options, include = F}
+
+knitr::opts_chunk$set(echo = F, message = F, warning = F,
+                      dev = "png", fig.ext = ".png")
+
+```
+
+<div class="note">
+
+# Management summary
+
+<i class="fa fa-file-text-o fa-1x" style="padding-right:5px"></i> 
+*This report covers the following analyses:*
+
+* Analysis A
+    + finds positive correlation between x and y
+* **Analysis B** 
+    + finds positive correlation between x and y
+* **Lorem ipsum** 
+    + lorem ipsum
+
+</div><br>
+

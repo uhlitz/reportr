@@ -1,0 +1,23 @@
+---
+title: 'Progress reports and presentations'
+author: 'Florian Uhlitz'
+date: '`r format(Sys.time(), "%d %B, %Y")`'
+output: 
+  html_document: 
+    number_sections: no
+    toc: yes
+bibliography: ~/papers.bib
+---
+
+```{r global_options, include = F}
+
+knitr::opts_chunk$set(echo = F, message = F, warning = F,
+                      dev = "png", fig.ext = ".png")
+
+```
+
+# Presentations
+
+## 2015-11-24: Florian, group meeting
+
+[Progress report](data/rep/foobar.pdf)
