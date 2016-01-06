@@ -19,7 +19,9 @@ This is my website template for scientific progress report websites based on
 
 If you fork and `make` this repository, it should look something like this:
 
+<a href ="http://toconclu.de/reports/reportr/">
 ![](http://toconclu.de/reports/reportr/data/fig/reportr.png)
+</a>
 
 Also, take a look [here](http://toconclu.de/reports/reportr/).
 
