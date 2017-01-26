@@ -11,13 +11,13 @@ This is my website template for scientific progress report websites based on [rm
 How does it work?
 =================
 
--   Use `make` to compile all .Rmd files like explained in the rmarkdown [docs](http://rmarkdown.rstudio.com/html_document_format.html#creating-a-website).
+-   Use `rmarkdown::render_site()` to compile all .Rmd files
 -   Edit & use `pu.sh` shell script to push the website to your favourite webserver.
 
 Demo?
 =====
 
-If you fork and `make` this repository, it should look something like this:
+If you fork and `rmarkdown::render_site()` this repository, it should look something like this:
 
 <a href ="http://toconclu.de/reports/reportr/"> ![](http://toconclu.de/reports/reportr/data/fig/reportr.png) </a>
 
