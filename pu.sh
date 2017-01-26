@@ -1,3 +1,3 @@
 #!/bin/bash
-rsync -raP --delete --exclude-from 'rsync_exclude.txt' * user@server.com:/report/
-rsync -raP --delete data/* user@server.com:/report/data/
+#Rscript -e 'rmarkdown::render_site()'
+rsync -raP --delete _site/* user@server.com:/report/

@@ -1,0 +1,34 @@
+---
+title: README
+author: 'Florian Uhlitz'
+date: '06 January, 2016'
+output: 
+  html_document: 
+    number_sections: no
+    toc: no
+---
+
+# What's this?
+
+This is my website template for scientific progress report websites based on 
+[rmarkdown](http://rmarkdown.rstudio.com/).
+
+# How does it work?
+
+* Use `rmarkdown::render_site()` to compile all .Rmd files 
+* Edit & use `pu.sh` shell script to push the website to your favourite webserver.
+
+# Demo?
+
+If you fork and `rmarkdown::render_site()` this repository, it should look something like this:
+
+<a href ="http://toconclu.de/reports/reportr/">
+![](http://toconclu.de/reports/reportr/data/fig/reportr.png)
+</a>
+
+Also, take a look [here](http://toconclu.de/reports/reportr/).
+
+# Contact
+
+* florian.uhlitz@charite.de
+* [uhlitz.github.io](https://uhlitz.github.io)

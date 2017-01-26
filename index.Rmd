@@ -1,11 +1,11 @@
 ---
-title: 'Introduction'
+title: 'Project Title'
 author: 'Florian Uhlitz'
 date: '`r format(Sys.time(), "%d %B, %Y")`'
 output: 
   html_document: 
     number_sections: no
-    toc: yes
+    toc: no
 bibliography: ~/papers.bib
 ---
 

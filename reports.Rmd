@@ -2,10 +2,6 @@
 title: 'Progress reports and presentations'
 author: 'Florian Uhlitz'
 date: '`r format(Sys.time(), "%d %B, %Y")`'
-output: 
-  html_document: 
-    number_sections: no
-    toc: yes
 bibliography: ~/papers.bib
 ---
 

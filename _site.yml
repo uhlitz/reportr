@@ -1,0 +1,50 @@
+name: 'reportr'
+input_dir: '_pages'
+output_dir: '_site'
+navbar:
+  title: "reportr"
+  left:
+    - text: "Introduction"
+      icon: fa-list-alt
+      href: index.html
+    - text: "Preprocessing"
+      icon: fa-hourglass-half
+      menu:
+        - text: "Heading 1"
+        - text: "Page A"
+          href: pre_example_a.html
+        - text: "Page B"
+          href: pre_example_b.html
+        - text: "---------"
+        - text: "Heading 2"
+        - text: "Page C"
+          href: pre_example_c.html
+    - text: "Results"
+      icon: fa-area-chart
+      menu:
+        - text: "Heading 1"
+        - text: "Page A"
+          href: res_example_a.html
+        - text: "Page B"
+          href: res_example_b.html
+        - text: "---------"
+        - text: "Heading 2"
+        - text: "Page C"
+          href: res_example_c.html
+    - text: "Reports"
+      icon: fa-file-pdf-o
+      href: REPORTS.html
+  right:
+    - icon: fa-info-circle
+      href: README.html
+output:
+  html_document:
+    css: 'styles/css/style.css'
+    theme: cosmo
+    highlight: textmate
+    mathjax: null
+    toc: yes
+    toc_depth: 3
+    toc_float:
+      collapsed: false
+excludes: ['*.sh','*.R']
