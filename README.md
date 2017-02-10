@@ -19,7 +19,7 @@ Demo?
 
 If you fork and `rmarkdown::render_site()` this repository, it should look something like this:
 
-<a href ="http://toconclu.de/reports/reportr/"> ![](http://toconclu.de/reports/reportr/data/fig/reportr.png) </a>
+<a href ="http://toconclu.de/reports/reportr/"> ![](http://toconclu.de/reports/reportr/data/reportr.png) </a>
 
 Also, take a look [here](http://toconclu.de/reports/reportr/).
 
